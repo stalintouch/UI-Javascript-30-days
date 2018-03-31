@@ -3,7 +3,7 @@ const obj = {
   b: "b"
 }
 
-const {a,b} = obj;
+const {a,b }  = obj;
 
 window.addEventListener('keydown', e => {
   
