@@ -26,8 +26,8 @@ function setClock(hands) {
   }
 }
 
-function clock(getTime) {
+function clock() {
   setClock([hoursHand, minutesHand, secondsHand]);
 }
 
-setInterval(clock.bind(null, getTime), 1000);
+setInterval(() => clock(), 1000);
